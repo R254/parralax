@@ -56,6 +56,9 @@ html, body{
 	color: #fff;
 	padding: 20px;
 }
+.ptext a{
+	text-decoration: none;
+}
 .trans{
 	background-color: transparent!important;
 }
