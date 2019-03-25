@@ -7,9 +7,12 @@ html, body{
 	line-height: 1.8em;
 	color: #665;
 }
-
+.t-size{
+	font-size: 30px;
+	padding: 10px!important;
+}
 /*---------------------------parralax----------------*/
-.pimg1,.pimg2,.pimg3{
+.pimg1,.pimg2,.pimg3,.pimg4{
 	position: relative;
 	opacity: 0.70;
 	background-position: center;
@@ -18,28 +21,35 @@ html, body{
 	background-attachment: fixed;
 }
 .pimg1{
-	background-image: url('../img/city.jpg');
+	background-image: url('../img/wall11.jpg');
 	min-height: 100%;
 }
 .pimg2{
-	background-image: url('../img/city1.jpeg');
-	min-height: 400px;
+	background-image: url('../img/wall3.jpg');
+	min-height: 500px;
 }
 .pimg3{
-	background-image: url('../img/city2.jpeg');
-	min-height: 400px;
+	background-image: url('../img/wall1.jpg');
+	min-height: 500px;
+}
+.pimg4{
+	background-image: url('../img/wall10.jpg');
+	min-height: 100%;
 }
 .section{
 	text-align: center;
 	padding: 50px 80px;
 }
-.section-ligt{
+.section-grey-light{
 	background-color: #f4f4f4;
 	color: #666666;
 }
 .section-dark{
 	background-color: #282e34;
 	color: #ddd;
+}
+.text-grey-light{
+	color: #f4f4f4;
 }
 .ptext{
 	position: absolute;
