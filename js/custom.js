@@ -30,4 +30,7 @@ M.Materialbox.init(mb, {});
 
 // Scrollspy
 const ss = document.querySelectorAll('.scrollspy');
-M.ScrollSpy.init(ss, {});     
+M.ScrollSpy.init(ss, {});    
+
+const cls = document.querySelectorAll('.collapsible');
+M.Collapsible.init(cls, {});
