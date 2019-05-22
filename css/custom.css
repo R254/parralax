@@ -95,6 +95,15 @@ html, body{
 		font-size: 10px;
 		letter-spacing: 4px;
 	}
+	h2{
+		font-size: 35px!important;
+	}
+	#rakuten h2{
+		font-size: 30px!important;
+	}
+	#rakuten li div,#rakuten li i{
+		font-size: 12px!important;
+	}
 }
 .scrapper:hover{
 	background-color: #e0f2f1!important;
